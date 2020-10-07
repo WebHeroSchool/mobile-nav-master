@@ -70,6 +70,11 @@ body {
   .nav {
     display: none;
   }
+  .logo {
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+  }
 }
 
 .nav__item {
@@ -108,6 +113,9 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .logo {
+    font-size: 28px;
   }
 }
 
@@ -209,4 +217,28 @@ body {
 
 .mobile-nav__link:hover {
   color: #ffd600;
+}
+
+@media screen and (max-width: 1024px) {
+  .logo {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo {
+    font-size: 24px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logo {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    font-size: 20px;
+  }
 }
